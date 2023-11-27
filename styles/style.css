@@ -1,0 +1,66 @@
+:root{
+    --clr-dark: #2e0707;
+    --clr-light: #fef2f2;
+    --clr-slate400: #9ca3af;
+    --clr-slate600: #4b5563;
+    --clr-light800: #1f2937;
+    --clr-rose800: #9f1239;
+    --clr-indigo800: #3730a3;
+
+    /* rose rgb(161, 18, 58) indigo rgb(55, 47, 162)*/
+
+    /* sizes */
+    --size-xxs: 0.5rem;
+    --size-xs: 0.75rem;
+    --size-s: 0.875rem;
+    --size-base: 1rem;
+    --size-l: 1.125rem;
+    --size-xl: 1.25rem;
+    --size-2xl: 1.5rem;
+    --size-3xl: 1.875rem;
+    --size-4xl: 2.25rem;
+    --size-5xl: 3rem;
+    --size-6xl: 3.75rem;
+    --size-7xl: 4.5rem;
+    --size-8xl: 6rem;
+    --size-9xl: 8rem;
+    --size-10xl: 10rem;
+}
+
+*{
+    margin: 0;
+    line-height: calc(1em , .5rem);
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'General Sans', sans-serif;
+    background-color: var(--clr-dark);
+    color: var(--clr-light);
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+    user-select: none;
+}
+
+button{
+    display: inline-block;
+    padding: 0;
+    border: none;
+    background: none;
+    cursor: pointer;
+    color: inherit;
+}
+a {
+    color: var(--clr-rose800);
+}
+strong{
+    color: var(--clr-indigo800);
+}
